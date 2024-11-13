@@ -1,0 +1,20 @@
+{
+    "name": "xjryanse/qiniu",
+    "description": "七牛云对接类库",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xjryanse",
+            "email": "xjryanse@sina.com"
+        }
+    ],
+    "require": {
+        "xjryanse/traits": "0.0.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "xjryanse\\qiniu\\": "src/"
+        }
+    }
+}
